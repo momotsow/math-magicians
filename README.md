@@ -1,63 +1,256 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Leaderboard
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-## Description
-This is the first project of the Math Magicians application.
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Math Magicians</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Javascript Capstone Project\] ](#-javascript-capstone-project-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+  - [Note:](#note)
+  - [Node required](#node-required)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Javascript Capstone Project] <a name="about-project"></a>
+
+> This is the first project of the Math Magicians application. 
+
+**[Javascript Capstone Project]** is a...
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
 
 
-## Built With
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>React</li>
+    <li>Javascript</li>
+    <li>BootStrap</li>
+    <li>font awesome</li>
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+</details>
 
-- React
-- CSS
-- Javascript
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>Not applicable</li>
+  </ul>
+</details>
 
-## Getting Started
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>Not applicable</li>
+  </ul>
+</details>
 
-To get a local copy up and running follow these simple example steps.
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+
+- **API network calls**
+- **Test**
+- **ES6 and Modularization**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- No Demo Yet
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-- Web browser
-- Code editor
-  
+
+In order to run this project you need:
+ ## Note: 
+ Most of the command here are for mac user
+
+## Node required
+```sh
+ brew install node
+```
+
 ### Setup
-Clone this repository
-$ git clone Clone [this repository](https://github.com/momotsow/math-magicians.git)
-$ cd Leaderboard
+
+Clone this repository to your desired folder:
+
+
+
+```sh
+  cd my-folder
+  git clone https://github.com/momotsow/math-magicians.git
+```
 
 ### Install
-Run project
 
-$ npm install
+Install this project with:
 
-$ npm run start # this will make webpack watching for your changes in code
+```sh
+  cd math-magicians
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
 
 
-## Authors
+```sh
+  npm start
+```
+
+
+### Run tests
+
+To run tests, run the following command:
+
+
+```sh
+npm test
+```
+
+### Deployment
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
 
 👤 **Khomotso Mkansi**
 
-- GitHub: [@Momotsow](https://github.com/momotsow)
-- LinkedIn: [Linkedin](https://www.linkedin.com/in/khomotso-prudence-mkansi-aa7794b7/)
+- GitHub: [@momotsow](https://github.com/momotsow)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/khomotso-prudence-mkansi-aa7794b7)
 
-## 🤝 Contributing
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+-
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- Microverse program
-- My standup team
-- My family's support
 
-## 📝 License
+If you like this project, show your support by giving a star to this project
 
-This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thank all the contributors and code reviewers.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+
+
+- **How can i contribute to this project?**
+
+  - Just clone the project and create a pul request with a well detailed feature intended to be added
+
+- **Can I add external libraries?**
+
+  - Yes, but it must be license you own the right to or open source library
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

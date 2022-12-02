@@ -1,8 +1,10 @@
-import react from 'react';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import Calculator from './components/calculator';
 import './App.css';
 import Home from './components/home';
 import Header from './components/header';
+import Quote from './components/quote';
 
 const App = () => (
   <>

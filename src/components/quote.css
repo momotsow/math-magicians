@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(224, 146, 0);
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  background-color: aliceblue;
+  width: 87.5%;
+  margin-left: 5%;
+  min-height: 400px;
+  padding: 20px;
+}
+
+.content .contentTitle {
+  padding: 30px 0;
+}
+
+.content .contentDescription {
+  color: rgb(26, 23, 23);
+}
+
+.footer {
+  height: 40px;
+  margin: 20px 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  margin-left: 5%;
+  padding: 40px 0;
+  background-color: rgb(2, 48, 88);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(70, 134, 191);
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(224, 146, 0);
+}

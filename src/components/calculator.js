@@ -3,32 +3,33 @@ import './calculator.css';
 import './home.css';
 import calculate from '../logic/calculate';
 
-const Calculator = () => {
-  const [state, setState] = useState({
-    total: 0,
-    next: null,
-    operation: null,
-  });
-
-  const updateDetails = (e) => {
-    const newObj = calculate(state, e.target.textContent);
-    setState(newObj);
-  };
-
-  const { next, operation, total } = state;
-  const op = operation === '%' ? 'mod' : operation;
-  let result = '';
-  if (total) {
-    result = `${total} ${op || ''} ${next || ''}`;
-  } else if (next) {
-    result = `${next} ${op || ''}`;
+class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+    this.state = { total: null, next: null, operation: null };
   }
+
+  render() {
+    const updateDetails = (e) => {
+      const newObj = calculate(this.state, e.target.textContent);
+      this.setState(newObj);
+    };
+
+    const { next, operation, total } = this.state;
+    const op = operation === '%' ? 'mod' : operation;
+    let result = '';
+    if (total) {
+      result = `${total} ${op || ''} ${next || ''}`;
+    } else if (next) {
+      result = `${next} ${op || ''}`;
+    }
 
   return (
     <div className="homeContainer">
       <div className="calculatorContainer">
         <div className="desc">
-          <h3> Small calculater with big SOLUTIONS! </h3>
+          <h3>A small calculater with big solution! </h3>
         </div>
         <div className="container">
           <div className="screen">
@@ -66,5 +67,5 @@ const Calculator = () => {
     </div>
   );
 };
-
+}
 export default Calculator;

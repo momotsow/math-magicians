@@ -3,27 +3,26 @@ import './calculator.css';
 import './home.css';
 import calculate from '../logic/calculate';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-    this.state = { total: null, next: null, operation: null };
+const Calculator = () => {
+  const [state, setState] = useState({
+    total: 0,
+    next: null,
+    operation: null,
+  });
+
+  const updateDetails = (e) => {
+    const newObj = calculate(state, e.target.textContent);
+    setState(newObj);
+  };
+
+  const { next, operation, total } = state;
+  const op = operation === '%' ? 'mod' : operation;
+  let result = '';
+  if (total) {
+    result = `${total} ${op || ''} ${next || ''}`;
+  } else if (next) {
+    result = `${next} ${op || ''}`;
   }
-
-  render() {
-    const updateDetails = (e) => {
-      const newObj = calculate(this.state, e.target.textContent);
-      this.setState(newObj);
-    };
-
-    const { next, operation, total } = this.state;
-    const op = operation === '%' ? 'mod' : operation;
-    let result = '';
-    if (total) {
-      result = `${total} ${op || ''} ${next || ''}`;
-    } else if (next) {
-      result = `${next} ${op || ''}`;
-    }
 
   return (
     <div className="homeContainer">
@@ -67,5 +66,5 @@ class Calculator extends React.Component {
     </div>
   );
 };
-}
+
 export default Calculator;

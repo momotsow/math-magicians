@@ -9,7 +9,7 @@ body {
 }
 
 .content {
-  background-color: aliceblue;
+  background-color: #fff7e9;
   width: 87.5%;
   margin-left: 5%;
   min-height: 400px;
@@ -33,13 +33,13 @@ body {
   place-content: center;
   margin-left: 5%;
   padding: 40px 0;
-  background-color: rgb(2, 48, 88);
+  background-color: #1746a2;
   color: white;
 }
 
 a {
   text-decoration: none;
-  color: rgb(70, 134, 191);
+  color: #fff;
 }
 
 a:hover {

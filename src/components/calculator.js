@@ -28,7 +28,7 @@ const Calculator = () => {
     <div className="homeContainer">
       <div className="calculatorContainer">
         <div className="desc">
-          <h3> Small calculater with big SOLUTIONS! </h3>
+          <h3>A small calculater with big solution! </h3>
         </div>
         <div className="container">
           <div className="screen">

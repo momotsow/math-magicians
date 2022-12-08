@@ -30,7 +30,7 @@ Object {
             <li>
               <a
                 class="link"
-                href="/calculator"
+                href="/calculate"
               >
                 Calculator
               </a>
@@ -74,7 +74,7 @@ Object {
           <li>
             <a
               class="link"
-              href="/calculator"
+              href="/calculate"
             >
               Calculator
             </a>

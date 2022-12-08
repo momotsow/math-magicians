@@ -1,7 +1,7 @@
 import React from 'react';
 import './quote.css';
 
-const Home = () => (
+const Quote = () => (
   <div className="homeContainer">
     <div className="content">
       <div className="contentTitle">
@@ -25,4 +25,4 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+export default Quote;

@@ -1,25 +1,23 @@
 import React from 'react';
-import {render, screen} from '@testing-library/react'
+import { render, screen } from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Home from '../components/home';
 
 describe('Testing home page to render as expected', () => {
-const homePage = render(
-      <Router>
-        <Home />
-      </Router>,
-    );
+  const homePage = render(
+    <Router>
+      <Home />
+    </Router>,
+  );
   it('Home should render correctly', () => {
-    //Assert
+    // Assert
     expect(homePage).toMatchSnapshot();
-
   });
 
   it('Home should contains the title Welcome to home page', () => {
-    //Arrange
+    // Arrange
     const title = screen.getByText('Welcome to home page');
-    //Assert
+    // Assert
     expect(title).toBeInTheDocument();
-  }
-  
+  });
 });

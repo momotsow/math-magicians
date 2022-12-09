@@ -5,7 +5,7 @@ const Quote = () => (
   <div className="homeContainer">
     <div className="content">
       <div className="contentTitle">
-        <h2> Quotes</h2>
+        <h1>Quotes</h1>
       </div>
       <div className="contentDescription">
         <p>

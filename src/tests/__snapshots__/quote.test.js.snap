@@ -1,93 +1,83 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing pages that should render correctly Header should render correctly 1`] = `
+exports[`Testing quote page to render as expected Quote should render correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="homeHeader"
+        class="homeContainer"
       >
         <div
-          class="headerTitle"
+          class="content"
         >
-          <h1>
-             Math Magician  
-          </h1>
+          <div
+            class="contentTitle"
+          >
+            <h1>
+              Quotes
+            </h1>
+          </div>
+          <div
+            class="contentDescription"
+          >
+            <p>
+              Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. - William Paul thurston.
+              <br />
+              <br />
+            </p>
+          </div>
         </div>
         <div
-          class="headerMenu"
+          class="footer"
         >
-          <ul>
-            <li>
-              <a
-                class="link"
-                href="/"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                class="link"
-                href="/calculate"
-              >
-                Calculator
-              </a>
-            </li>
-            <li>
-              <a
-                class="link"
-                href="/quote"
-              >
-                Quote
-              </a>
-            </li>
-          </ul>
+          <p>
+            Developed by
+            <a
+              href="https://github.com/momotsow/math-magicians"
+            >
+               KP Mkansi
+            </a>
+          </p>
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="homeHeader"
+      class="homeContainer"
     >
       <div
-        class="headerTitle"
+        class="content"
       >
-        <h1>
-           Math Magician  
-        </h1>
+        <div
+          class="contentTitle"
+        >
+          <h1>
+            Quotes
+          </h1>
+        </div>
+        <div
+          class="contentDescription"
+        >
+          <p>
+            Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. - William Paul thurston.
+            <br />
+            <br />
+          </p>
+        </div>
       </div>
       <div
-        class="headerMenu"
+        class="footer"
       >
-        <ul>
-          <li>
-            <a
-              class="link"
-              href="/"
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              class="link"
-              href="/calculate"
-            >
-              Calculator
-            </a>
-          </li>
-          <li>
-            <a
-              class="link"
-              href="/quote"
-            >
-              Quote
-            </a>
-          </li>
-        </ul>
+        <p>
+          Developed by
+          <a
+            href="https://github.com/momotsow/math-magicians"
+          >
+             KP Mkansi
+          </a>
+        </p>
       </div>
     </div>
   </div>,

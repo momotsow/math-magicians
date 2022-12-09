@@ -3,7 +3,7 @@ import './calculator.css';
 import './home.css';
 import calculate from '../logic/calculate';
 
-const Calculator = () => {
+const Calculate = () => {
   const [state, setState] = useState({
     total: 0,
     next: null,
@@ -67,4 +67,4 @@ const Calculator = () => {
   );
 };
 
-export default Calculator;
+export default Calculate;

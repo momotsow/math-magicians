@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import Calculate from '../components/Calculator';
+import Calculate from '../components/calculator';
 
 test('renders Calculate component', () => {
   const { asFragment } = render(<Calculate />);

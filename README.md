@@ -36,7 +36,7 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Javascript Capstone Project\] ](#-javascript-capstone-project-)
+- [📖 \[Math Magicians Project\] ](#-math-magicians-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -51,7 +51,6 @@ After you're finished please remove all the comments and instructions!
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -60,11 +59,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Javascript Capstone Project] <a name="about-project"></a>
+# 📖 [Math Magicians Project] <a name="about-project"></a>
 
 > This is the first project of the Math Magicians application. 
 
-**[Javascript Capstone Project]** is a...
+**[Math Magicians Project]** website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations. Read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -195,8 +194,8 @@ npm test
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
--
+<!-- ## 🔭 Future Features <a name="future-features"></a>
+- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

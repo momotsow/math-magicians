@@ -59,11 +59,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math Magicians Project] <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
 > This is the first project of the Math Magicians application. 
 
-**[Math Magicians Project]** website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations. Read a random math-related quote.
+**Math Magicians Project** website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations. Read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,7 +99,6 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
 
 - **API network calls**
 - **Test**
@@ -138,8 +137,6 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-
-
 ```sh
   cd my-folder
   git clone https://github.com/momotsow/math-magicians.git
@@ -168,21 +165,17 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 
-
 ```sh
 npm test
 ```
 
 ### Deployment
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Khomotso Mkansi**
 
@@ -196,6 +189,9 @@ npm test
 
 <!-- ## 🔭 Future Features <a name="future-features"></a>
 - -->
+- **Improve styling**
+- **Add more unit tests**
+- **Add more functionality(Scientific)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
